@@ -1,0 +1,103 @@
+--- 
+title: "PSYCH 260/BBH 203 Spring 2023 notes"
+author: "Rick O. Gilmore, Ph.D."
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [include/bib/book.bib, include/bib/packages.bib, include/bib/psych260.bib]
+biblio-style: "apa-like"
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Lecture notes for the course.
+link-citations: yes
+github-repo: "psu-psychology/psych-260-2023-spring-notes/notes"
+url: 'https\://psu-psychology.github.io/psych-260-2023-spring-notes/'
+---
+
+# About {-}
+
+These lecture notes are for your use as a student in PSYCH 260.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'include/bib/packages.bib')
+```
+
+```{r set-up, include = FALSE}
+# Defaults for chunks, especially figures
+knitr::opts_chunk$set(echo = FALSE, cache=TRUE, 
+                      fig.align = "center",
+                      out.width = "100%",
+                      fig.path = "include/img/")
+```
+
+<!--chapter:end:index.Rmd-->
+
+---
+title: "01-instructions"
+author: "Andrea Seisler"
+date: "2023-05-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+<!--chapter:end:01-instructions.Rmd-->
+
+---
+title: "02-data-visualizaton"
+author: "Andrea Seisler"
+date: "2023-05-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+<!--chapter:end:02-data-visualization.Rmd-->
+
