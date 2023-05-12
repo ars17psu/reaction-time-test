@@ -1,0 +1,9 @@
+delete_merged_file: false
+language:
+  ui:
+    chapter_name: "Topic "
+  label:
+    fig: "Figure "
+    tab: "Table "
+output_dir: "../docs"
+github-repo: "ars17psu/reaction-time-test/src"
